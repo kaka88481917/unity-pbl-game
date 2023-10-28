@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7cb4467e529774439a431bec5e62487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mousesens: 500
+  mousesens: 750
   playerbody: {fileID: 158075959}
 --- !u!1 &1023984479
 GameObject:

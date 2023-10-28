@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float playerspeed = 10f;
+    public CharacterController controller;
+
     void Start()
     {
         
@@ -13,6 +15,13 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float xpos = Input.GetAxis("Horizontal");
+        float zpos = Input.GetAxis("Vertical");
+
+        Vector3 move = transform.right * xpos + transform.forward * zpos;
+
+        controller.Move(move * playerspeed * Time.deltaTime);
+
         
     }
 }

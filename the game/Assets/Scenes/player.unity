@@ -172,6 +172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerspeed: 10
   controller: {fileID: 158075961}
+  grav: -10
 --- !u!143 &158075961
 CharacterController:
   m_ObjectHideFlags: 0

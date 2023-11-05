@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a3ae6666caa8f8438fa23918371fdf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerspeed: 10
+  playerspeed: 5
   controller: {fileID: 158075961}
   grav: -10
 --- !u!143 &158075961

@@ -410,6 +410,7 @@ GameObject:
   - component: {fileID: 753675425}
   - component: {fileID: 753675424}
   - component: {fileID: 753675427}
+  - component: {fileID: 753675428}
   m_Layer: 0
   m_Name: player cam
   m_TagString: MainCamera
@@ -505,6 +506,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mousesens: 750
   playerbody: {fileID: 158075959}
+--- !u!114 &753675428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753675423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be0b1669cd05e648ab97d6a67057267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayrange: 5
+  cam: {fileID: 753675425}
+  target:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &856680546 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8909884900443223624, guid: 8b70ed1835ce5da44b1e2b497e40bcb6, type: 3}
